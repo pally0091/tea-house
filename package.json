@@ -1,0 +1,22 @@
+{
+  "name": "tea-house",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pally0091/tea-house.git"
+  },
+  "author": "Debashis Roy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pally0091/tea-house/issues"
+  },
+  "homepage": "https://github.com/pally0091/tea-house#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.2.7"
+  }
+}
