@@ -523,6 +523,11 @@ video {
   margin-right: auto;
 }
 
+.my-3 {
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
 .my-5 {
   margin-top: 1.25rem;
   margin-bottom: 1.25rem;
@@ -532,8 +537,32 @@ video {
   display: flex;
 }
 
+.h-24 {
+  height: 6rem;
+}
+
+.h-32 {
+  height: 8rem;
+}
+
+.h-3 {
+  height: 0.75rem;
+}
+
+.h-36 {
+  height: 9rem;
+}
+
+.h-full {
+  height: 100%;
+}
+
 .w-1\/2 {
   width: 50%;
+}
+
+.w-\[22\%\] {
+  width: 22%;
 }
 
 .w-\[90\%\] {
@@ -542,6 +571,14 @@ video {
 
 .w-full {
   width: 100%;
+}
+
+.w-\[\] {
+  width: ;
+}
+
+.w-\[90\] {
+  width: 90;
 }
 
 .flex-row {
@@ -556,14 +593,23 @@ video {
   border-radius: 0.5rem;
 }
 
-.bg-gradient-to-r {
-  background-image: linear-gradient(to right, var(--tw-gradient-stops));
+.bg-slate-400 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(148 163 184 / var(--tw-bg-opacity));
 }
 
-.from-\[\#FF0000\] {
-  --tw-gradient-from: #FF0000;
-  --tw-gradient-to: rgb(255 0 0 / 0);
-  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+.bg-slate-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(226 232 240 / var(--tw-bg-opacity));
+}
+
+.bg-slate-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(241 245 249 / var(--tw-bg-opacity));
+}
+
+.bg-gradient-to-r {
+  background-image: linear-gradient(to right, var(--tw-gradient-stops));
 }
 
 .from-\[\#FF8938\] {
@@ -572,12 +618,18 @@ video {
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
+.from-red-600 {
+  --tw-gradient-from: #dc2626;
+  --tw-gradient-to: rgb(220 38 38 / 0);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
 .to-\[\#FF0000\] {
   --tw-gradient-to: #FF0000;
 }
 
-.to-\[\#FF8938\] {
-  --tw-gradient-to: #FF8938;
+.to-orange-400 {
+  --tw-gradient-to: #fb923c;
 }
 
 .p-10 {
@@ -606,9 +658,19 @@ video {
   text-align: center;
 }
 
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
 .text-5xl {
   font-size: 3rem;
   line-height: 1;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
 }
 
 .font-bold {
