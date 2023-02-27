@@ -615,6 +615,14 @@ video {
   width: 100%;
 }
 
+.w-\[\] {
+  width: ;
+}
+
+.w-\[90\] {
+  width: 90;
+}
+
 .flex-row {
   flex-direction: row;
 }
