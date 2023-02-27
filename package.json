@@ -5,7 +5,8 @@
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+    "build": "react-scripts build",
+    "dev": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
 
   },
   "repository": {
@@ -17,7 +18,7 @@
   "bugs": {
     "url": "https://github.com/pally0091/tea-house/issues"
   },
-  "homepage": "https://github.com/pally0091/tea-house#readme",
+  "homepage": "https://github.com/pally0091/tea-house/index.html",
   "devDependencies": {
     "tailwindcss": "^3.2.7"
   }
